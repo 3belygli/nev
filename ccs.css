@@ -1,30 +1,41 @@
-@media only screen and (max-width: 600px ){
-    a {
-        color: red;
-    }
+b {
 }
 
-:root{
-    --c: green;
+h1 {
+  width: 650px;
+  float: right;
+}
+
+body {
+  background-color: rgb(77, 75, 75);
+}
+
+@media only screen and (max-width: 600px) {
+  a {
+    color: red;
+  }
+}
+
+:root {
+  --c: green;
 }
 
 body:has(#szín:checked) {
-    --c: red;
+  --c: red;
 }
 
-h1{
-      color: var(--c);
+h1 {
+  color: var(--c);
 }
 
+@media only screen and (max-width: 600px) {
+  a {
+    display: none;
+  }
+}
 
-:root{
-    --a: none;
+:root {
 }
 
 body:has(#igen:checked) {
-    --a: none;
 }
-h1{
-    
-}
-
